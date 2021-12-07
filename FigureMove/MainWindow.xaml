@@ -1,0 +1,17 @@
+﻿<Window x:Class="FigureMove.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FigureMove"
+        mc:Ignorable="d"
+        Title="FigureMove" Height="450" Width="800" Background="White" FontSize="14" WindowStartupLocation="CenterScreen" IsTabStop="True">
+    <Grid>
+        <StackPanel>
+            <Button x:Name="CircleButton" Click="CircleButton_Click" FontSize="18" Height="27">Circle</Button>
+            <Button x:Name="SquareButton" Click="SquareButton_Click" FontSize="18" Height="27">Square</Button>
+            <Button x:Name="RhombButton" Click="RhombButton_Click" FontSize="18" Height="27">Rhomb</Button>
+            <Canvas x:Name="MyCanvas" Height="339"/>
+        </StackPanel>
+    </Grid>
+</Window>
